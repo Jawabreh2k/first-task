@@ -1,32 +1,39 @@
 const blogs = [
   {
     id: 1,
-    title: "Blog Post 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    comments: [
-      { id: 1, author: "John", text: "Great post!" },
-      { id: 2, author: "Jane", text: "Thanks for sharing." },
-    ],
+    title: "First Blog Post",
+    content: "This is the content for the first blog post.",
+    author: "John Doe",
   },
   {
     id: 2,
-    title: "Blog Post 2",
-    content:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    comments: [
-      { id: 3, author: "Bob", text: "Interesting topic." },
-      { id: 4, author: "Alice", text: "I learned something new today." },
-    ],
+    title: "Second Blog Post",
+    content: "This is the content for the second blog post.",
+    author: "John Doe",
   },
   {
     id: 3,
-    title: "Blog Post 3",
-    content:
-      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-    comments: [
-      { id: 5, author: "Sarah", text: "Great insights!" },
-      { id: 6, author: "Tom", text: "Thanks for sharing your thoughts." },
-    ],
+    title: "Third Blog Post",
+    content: "This is the content for the third blog post.",
+    author: "John Doe",
+  },
+  {
+    id: 4,
+    title: "Fourth Blog Post",
+    content: "This is the content for the fourth blog post.",
+    author: "John Doe",
+  },
+  {
+    id: 5,
+    title: "Fifth Blog Post",
+    content: "This is the content for the fifth blog post.",
+    author: "John Doe",
+  },
+  {
+    id: 6,
+    title: "sixth Blog Post",
+    content: "This is the content for the sixth blog post.",
+    author: "John Doe",
   },
 ];
 
