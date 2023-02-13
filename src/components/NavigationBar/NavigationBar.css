@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  color: rgb(235, 133, 150);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li + li {
+  margin-left: 1rem;
+}
+
+button {
+  border: none;
+  background: none;
+  background-color: pink;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
